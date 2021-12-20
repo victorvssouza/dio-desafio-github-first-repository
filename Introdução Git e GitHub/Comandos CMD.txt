@@ -1,0 +1,14 @@
+COMANDOS:
+dir --> listar diretorios
+cd / --> ir para diretorio raiz
+cd Windows --> ir para diretorio Windows
+cd .. --> retroceder
+cls --> Limpar a tela
+mkdir --> Criar pasta
+echo --> Printa o que vc digitou no terminal
+echo palavra_digitada > nome_da_arquivo.txt --> redireciona numa pasta
+del nome_do_arquivo_ou_diretorio --> Deletar (para apagar um determinado arquivo dentro de uma pasta, somente ocorrerá se cd estiver nessa determinada pasta))
+rmdir nome_do_diretorio /S /Q --> Deletar todo o diretorio
+
+ATALHOS:
+tab --> completa o nome

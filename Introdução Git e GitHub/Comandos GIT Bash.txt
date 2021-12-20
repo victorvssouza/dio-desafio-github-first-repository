@@ -1,0 +1,8 @@
+Comandos:
+openssl sha1 nome_do_arquivo.extensao_do_arquivo --> Gera um codigo SHA-1 para o arquivo selecionado
+ls --> mostra os arquivos dentro do diretorio atual
+pwd --> mostra o caminho para o diretorio atual
+cd caminho_do_diretorio --> entrar no diretorio
+ssh-keygen -t ed25519 -C vs.developer.vs310@gmail.com --> gerar chave ssh
+eval $(ssh-agent -s) --> gerar agente
+$ ssh-keygen -t ed25519 -C vs.developer.vs310@gmail.com -->  add chave

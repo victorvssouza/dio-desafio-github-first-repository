@@ -1,0 +1,21 @@
+Repositorios - São as pastas do git hub. Exatamente onde colocarei os arquivos de um projeto.
+Branch - É a função para editar o codigo sem mudar o codigo original.
+Commit - Postar alterações do branch no codigo original.
+Merge - Função para add duas branches quando não há modificações distintas.
+Remote - Será o repositorio na maquina
+Push - jogar o repositorio da maquina no git hub
+Pull - Puxar o repositorio do git hub para maquina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
