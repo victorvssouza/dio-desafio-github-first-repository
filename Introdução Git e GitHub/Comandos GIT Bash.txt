@@ -1,8 +1,21 @@
-Comandos:
+Comandos Básicos:
+git init --> inicializa um repositório local git
+git status --> verifica o estado dos seus arquivos
+git add <nomeDoArquivo> --> envia seu arquivo especificado para o Stage
+git add --all --> envia todos os arquivos para o Stage
+git commit -m “tituloDoCommit --> envia o que está no Stage para o HEAD
+git remote add origin urlDoRepositorio --> adiciona e indica a URL do repositório remoto em que os arquivos serão mantidos
+git push origin master --> envia os arquivos para o repositório remoto que você especificou através da URL do comando acima
+git checkout -b <nomeDaBranch> --> cria uma nova branch
+git checkout <nomeDaBranch> --> alterna para a branch especificada
+
+
+
+Mais Comandos:
 openssl sha1 nome_do_arquivo.extensao_do_arquivo --> Gera um codigo SHA-1 para o arquivo selecionado
 ls --> mostra os arquivos dentro do diretorio atual
 pwd --> mostra o caminho para o diretorio atual
 cd caminho_do_diretorio --> entrar no diretorio
-ssh-keygen -t ed25519 -C vs.developer.vs310@gmail.com --> gerar chave ssh
+ssh-keygen -t ed25519 -C seu-email@seu-email.com --> gerar chave ssh
 eval $(ssh-agent -s) --> gerar agente
-$ ssh-keygen -t ed25519 -C vs.developer.vs310@gmail.com -->  add chave
+$ ssh-keygen -t ed25519 -C seu-email@seu-email.com -->  add chave
